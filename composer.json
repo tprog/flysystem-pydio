@@ -1,0 +1,27 @@
+{
+    "name": "tprog/flysystem-pydio",
+    "description": "Flysystem adapter for Pydio",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Artem Bondarenko",
+            "email": "taxist0@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "league/flysystem": "~1.0",
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Tprog\\Flysystem\\Pydio\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
